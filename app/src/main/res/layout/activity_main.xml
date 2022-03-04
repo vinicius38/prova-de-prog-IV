@@ -14,14 +14,14 @@
 
         <ListView
             android:layout_width="match_parent"
-            android:layout_height="600dp"
+            android:layout_height="650dp"
             android:id="@+id/listaPacientes">
         </ListView>
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
             android:id="@+id/btnCadastrar"
-            android:text="@string/btnCasdastrar"/>
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:text="@string/btnCasdastrar" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

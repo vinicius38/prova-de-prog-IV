@@ -13,6 +13,8 @@
             android:name=".activity_pacientes"
             android:exported="false" />
         <activity
+            android:name=".Pacientes"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
