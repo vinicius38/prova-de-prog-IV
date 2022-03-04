@@ -26,7 +26,7 @@ public class PacientesDAO extends SQLiteOpenHelper {
         String sql = "CREATE TABLE pacientes("+
                 "id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,"+
                 "nome TEXT NOT NULL,"+
-                "idade DATE NOT NULL,"+
+                "idade INTEGER NOT NULL,"+
                 "telefone INTEGER NOT NULL,"+
                 "endereco TEXT NOT NULL,"+
                 "numero INTEGER NOT NULL DEFAULT 0);";

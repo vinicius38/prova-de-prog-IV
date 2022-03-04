@@ -20,7 +20,7 @@
         android:layout_height="50dp"
         android:id="@+id/idadePaciente"
         android:hint="Idade"
-        android:inputType="date"/>
+        android:inputType="number"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -44,8 +44,8 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btRegistrar"
-        android:text="Resgistrar"/>
+        android:id="@+id/btnAlterar"
+        android:text="Alterar"/>
 
 
 
